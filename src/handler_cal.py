@@ -26,7 +26,7 @@ def gen_cal(output: str) -> None:
         week1, week2 = dates[:7], dates[7:14]
 
         # Create the Streamlit app interface
-        st.title("📅 AI-Generated Study Schedule")
+        st.title("📅 The Tailor's Schedule")
 
         # Display Week 1
         st.subheader("Week 1")
