@@ -1,0 +1,17 @@
+{
+    "llm": {
+        "default_model": "anthropic.claude-3-haiku-20240307-v1:0",
+        "lastk": 0,
+        "temperature": 0.7,
+        "session_id": "GenericSession"
+    },
+    "logging": {
+        "enabled": true,
+        "log_level": "INFO",
+        "log_file": "./logs/app.log"
+    },
+    "style": {
+        "html_content": "./src/style/page.html",
+        "css_style": "./src/style/style.css"
+    }
+}

@@ -1,0 +1,8 @@
+[server]
+headless = true
+runOnSave = false
+baseUrlPath = ""
+
+[logger]
+level = "info"
+messageFormat = "%(asctime)s %(message)s"
