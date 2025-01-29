@@ -6,8 +6,6 @@ It handles configuration loading, user input, schedule generation,
 and renders the HTML/CSS content dynamically.
 """
 import logging
-import json
-from datetime import datetime, timedelta
 
 import streamlit as st
 from config import load_config
